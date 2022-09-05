@@ -79,3 +79,6 @@ body {
 .menu li label span ion-icon {
     margin-right: 10px;
 }
+.menu li label .action input {
+    appearance: none;
+}
