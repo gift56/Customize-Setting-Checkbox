@@ -82,9 +82,21 @@ body {
 .menu li label .action input {
     appearance: none;
 }
-.menu li label .action i{
+.menu li label .action i {
     position: relative;
     width: 30px;
     height: 15px;
     background-color: #ddd;
+    border-radius: 15px;
+}
+.menu li label .action i::before {
+    content: "";
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
