@@ -88,8 +88,9 @@ body {
     height: 15px;
     background-color: #ddd;
     border-radius: 15px;
+    transition: 0.5s;
 }
-.menu li label .action input:checked ~ i{
+.menu li label .action input:checked ~ i {
     background-color: #2aa0ff;
 }
 .menu li label .action i::before {
