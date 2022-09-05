@@ -68,4 +68,14 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+.menu li label span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    color: #777;
+}
+.menu li label span ion-icon {
+    margin-right: 10px;
+}
