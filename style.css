@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
     font-family: "Poppins", sans-serif !important;
 }
 body {
@@ -52,4 +53,10 @@ body {
     color: #555;
     font-size: 0.85rem;
     font-weight: 400;
+}
+.menu{
+    position: relative;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
