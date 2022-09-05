@@ -82,3 +82,9 @@ body {
 .menu li label .action input {
     appearance: none;
 }
+.menu li label .action i{
+    position: relative;
+    width: 30px;
+    height: 15px;
+    background-color: #ddd;
+}
