@@ -33,6 +33,7 @@ body {
     height: 50px;
     background-color: red;
     border-radius: 50%;
+    overflow: hidden;
 }
 .profile .imgBx img {
     width: 100%;
