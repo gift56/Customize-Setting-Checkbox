@@ -3,6 +3,8 @@ let dark = document.getElementById("dark");
 
 dark.onclick = function () {
   if (dark.checked === true) {
-    body.classList.add("darkMode")
+    body.classList.add("darkMode");
+  } else {
+    body.classList.remove("darkMode");
   }
 };
