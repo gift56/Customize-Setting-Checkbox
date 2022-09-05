@@ -43,8 +43,13 @@ body {
     left: 0;
     object-fit: cover;
 }
-.profile .text{
+.profile .text {
     font-weight: 500;
     color: #333;
     line-height: 1.2em;
+}
+.profile .text span {
+    color: #555;
+    font-size: 0.85rem;
+    font-weight: 400;
 }
