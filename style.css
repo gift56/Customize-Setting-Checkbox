@@ -89,6 +89,9 @@ body {
     background-color: #ddd;
     border-radius: 15px;
 }
+.menu li label .action input:checked ~ i{
+    background-color: #2aa0ff;
+}
 .menu li label .action i::before {
     content: "";
     position: absolute;
