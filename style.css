@@ -13,3 +13,6 @@ body {
     background-color: #f0f0f0f0;
     transition: 0.5s;
 }
+.box{
+    position: relative;
+}
