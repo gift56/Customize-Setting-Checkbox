@@ -14,6 +14,9 @@ body {
     background-color: #f0f0f0f0;
     transition: 0.5s;
 }
+.darkMode{
+    background-color: #222;
+}
 .box {
     position: relative;
     width: 300px;
@@ -21,6 +24,10 @@ body {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+}
+.darkMode .box{
+    background-color: #292929;
 }
 .profile {
     position: relative;
