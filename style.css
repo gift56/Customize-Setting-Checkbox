@@ -19,10 +19,11 @@ body {
 }
 .box {
     position: relative;
-    width: 300px;
+    width: 400px;
+    min-height: 400px;
     padding: 30px;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 12px;
     box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
     transition: 0.5s;
 }
@@ -37,8 +38,8 @@ body {
 }
 .profile .imgBx {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -57,23 +58,26 @@ body {
     color: #fefefe;
 }
 .profile .text {
+    font-size: 1.3rem;
     font-weight: 500;
     color: #333;
-    line-height: 1.2em;
+    line-height: 1em;
 }
 .profile .text span {
-    color: #555;
-    font-size: 0.85rem;
+    color: rgb(164, 163, 163);
+    font-size: 0.95rem;
     font-weight: 400;
 }
 .menu {
     position: relative;
     margin-top: 20px;
     padding-top: 10px;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(8, 8, 8, 0.05);
 }
 .menu li {
-    margin: 8px 0;
+    margin: 20px 0;
+    font-size: 1rem;
+    font-weight: 500;
 }
 .menu li label {
     position: relative;
@@ -102,8 +106,8 @@ body {
 }
 .menu li label .action i {
     position: relative;
-    width: 30px;
-    height: 15px;
+    width: 40px;
+    height: 20px;
     background-color: #ddd;
     border-radius: 15px;
     transition: 0.5s;
@@ -114,15 +118,15 @@ body {
 .menu li label .action i::before {
     content: "";
     position: absolute;
-    top: 2.5px;
-    left: 2.5px;
-    width: 10px;
-    height: 10px;
+    top: 2.8px;
+    left: 2.8px;
+    width: 15px;
+    height: 15px;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
 }
 .menu li label .action input:checked ~ i::before {
-    left: calc(100% - 12.5px);
+    left: calc(100% - 17px);
 }
